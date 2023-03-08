@@ -56,7 +56,7 @@ function passwordValid(password) {
 error4.innerText = "";
 error4.style = "color:red";
 function password2Valid(password2) {
-  if (password2.value === password.value) {
+  if (password2.value === password.value && password2.value.length >= 1) {
     password2.style = "border:2px solid green";
     localStorage.setItem("password2", password2.value);
   } else {
