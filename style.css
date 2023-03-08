@@ -1,0 +1,30 @@
+body {
+  background-color: wheat;
+}
+.container {
+  width: 16vw;
+  padding: 20px;
+  box-shadow: 0 0 10px black;
+  margin: auto;
+  background-color: white;
+}
+input,
+label {
+  display: block;
+  width: 15vw;
+  outline: none;
+}
+.form-control {
+  margin-bottom: 19px;
+}
+input {
+  padding: 6px;
+}
+button {
+  background-color: rgb(5, 109, 254);
+  border: none;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  width: 16vw;
+}
