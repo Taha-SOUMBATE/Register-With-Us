@@ -70,7 +70,7 @@ function password2Valid(password2) {
 let nav = document.querySelector("nav");
 
 window.addEventListener("scroll", () => {
-  const scrollPosition = document.documentElement.scrollTop;
+  const scrollPosition = parseInt(document.documentElement.scrollTop);
   if (scrollPosition >= 60) {
     nav.style =
       "position: fixed; top: 0; right: 0; left: 0; background-color: white;padding: 20px;";
