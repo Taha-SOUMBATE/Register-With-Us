@@ -1,11 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   background-color: wheat;
+  height: 190vh;
 }
 .container {
   width: 16vw;
   padding: 20px;
   box-shadow: 0 0 10px black;
-  margin: auto;
+  margin: 20px auto;
+
   background-color: white;
 }
 input,
@@ -27,4 +33,14 @@ button {
   color: white;
   font-size: 15px;
   width: 16vw;
+}
+header {
+  background-color: white;
+  padding: 20px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  width: 95vw;
+  gap: 40px;
 }

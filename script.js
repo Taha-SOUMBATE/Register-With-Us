@@ -67,6 +67,20 @@ function password2Valid(password2) {
     }, 3000);
   }
 }
+let nav = document.querySelector("nav");
+
+window.addEventListener("scroll", () => {
+  const scrollPosition = document.documentElement.scrollTop;
+  if (scrollPosition >= 60) {
+    nav.style =
+      "position: fixed; top: 0; right: 0; left: 0; background-color: white;padding: 20px;";
+  } else {
+    nav.style =
+      "position:; top: 0; right: 0; left: 0; background-color:;padding:;";
+  }
+  console.log(scrollPosition);
+});
+
 form.addEventListener("submit", (even) => {
   even.preventDefault();
   usernameValid(username);
