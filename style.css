@@ -1,24 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  font-family: "Open Sans", sans-serif;
 }
 body {
-  background-color: wheat;
+  background-color: #f9fafb;
   height: 190vh;
 }
 .container {
-  width: 16vw;
-  padding: 20px;
-  box-shadow: 0 0 10px black;
+  width: 20vw;
+  padding: 10px;
+  box-shadow: 0 0 20px black;
   margin: 20px auto;
-
+  border-radius: 5px;
   background-color: white;
 }
 input,
 label {
   display: block;
-  width: 15vw;
+  width: 19vw;
   outline: none;
+}
+h2 {
+  margin-bottom: 20px;
 }
 .form-control {
   margin-bottom: 19px;
@@ -27,12 +33,12 @@ input {
   padding: 6px;
 }
 button {
-  background-color: rgb(5, 109, 254);
+  background-color: #3498db;
   border: none;
   padding: 10px;
   color: white;
   font-size: 15px;
-  width: 16vw;
+  width: 20vw;
 }
 header {
   background-color: white;
